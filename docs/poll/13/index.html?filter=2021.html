@@ -1,0 +1,680 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <meta name = "Description" content = "Real-time polling project for Phillips Academy students">
+  <meta name = "author" content = "Miles McCain,Jeffrey Shen">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/png" href="../../static/polls/favicon.aaa6086e1e1d.png"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link type = "text/css" rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <script src="../../static/polls/JS/navbar.255fbf692ecc.js"></script>
+
+  
+<link type="text/css" rel="stylesheet" href="../../static/polls/CSS/main.10f48d785b9f.css">
+
+  
+  <title>2020 Presidential Election • PollPA</title>
+
+
+</head>
+<body>
+  
+<div class="wrapper">
+  <!-- NAV -->
+  <nav class="navbar is-dark is-mobile">
+  <div class="container">
+    <div class="navbar-brand">
+      <a href="../../index.html" class="navbar-item">
+        <h1 class="is-size-4">
+          <i class="fas fa-vote-yea">
+          </i>
+          &nbsp;
+          PollPA
+        </h1>
+      </a>
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-end">
+        
+        
+        <span class="navbar-item has-text-weight-bold" href="/login/">Archived Copy</span>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- HEADER -->
+  
+<section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        2020 Presidential Election
+      </h1>
+      <h2 class="subtitle">
+        The 2020 elections may seem far away, but the primaries are already in full swing. Who are your favorites?
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+  <section class="section">
+    <div class="container">
+      <!-- ERROR -->
+      
+    
+      <!-- CONTENT -->
+      
+
+
+<section id="poll" class="columns">
+  
+  <div class="column is-3">
+    <div class="tags">
+      
+        <span class="tag is-medium is-warning">Poll closed</span>
+      
+      
+      
+        <span class="tag is-medium is-primary">Publicly available</span>
+      
+    </div>
+    <p class="heading">Launched</p>
+    <p>May 23, 2019</p>
+    <br>
+    <p class="heading">Closed</p>
+    <p>May 25, 2019</p>
+    <br>
+    <p class="heading">Full Data Release</p>
+    <p>May 27, 2019</p>
+    <br>
+    <p class="heading">Votes</p>
+    <p>495</p>
+  </div>
+  
+  <div class="column is-8" id="questions">
+    
+      <div class="tabs is-toggle is-centered">
+        <ul>
+          <li class="">
+            <a href="index.html%3Ffilter=all.html">
+              <span>All</span>
+            </a>
+          </li>
+          
+          <li class="">
+            <a href="index.html%3Ffilter=2022.html">
+              <span>2022</span>
+            </a>
+          </li>
+          
+          <li class=" is-active ">
+            <a href="index.html%3Ffilter=2021.html">
+              <span>2021</span>
+            </a>
+          </li>
+          
+          <li class="">
+            <a href="index.html%3Ffilter=2020.html">
+              <span>2020</span>
+            </a>
+          </li>
+          
+          <li class="">
+            <a href="index.html%3Ffilter=2019.html">
+              <span>2019</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <br>
+      
+      
+        <div class="notification is-light">
+          <p>
+            Showing votes only from the class of <strong>2021</strong> (145 votes). <a href="index.html%3Ffilter=all.html">Clear filter.</a>
+          </p>
+        </div>
+      
+      
+        
+          <h2 class="is-size-4 title">Who do you think will win the 2020 Presidential Election?</h2>
+          
+
+          
+            <div class = "pie-chart chart" data-values = "[{&#39;x&#39;: &#39;Democrats&#39;, &#39;y&#39;: 94, &#39;percent&#39;: 18.98989898989899}, {&#39;x&#39;: &#39;Republicans&#39;, &#39;y&#39;: 51, &#39;percent&#39;: 10.303030303030303}]" data-ylabel = "Count">
+  <div class = "columns is-vcentered is-centered is-variable is-7">
+    <svg class = "column is-narrow"></svg>
+    <div class = "pie-label column is-narrow"></div>
+  </div>
+  <div class = "tooltip hidden is-hidden"></div>
+</div>
+
+          
+          <hr>
+          <br>
+        
+          <h2 class="is-size-4 title">Which candidate do you most want to be the next President of the United States?</h2>
+          
+
+          
+            <div class="table-chart">
+  <table class="table is-fullwidth">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Count</th>
+        <th>Percent</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Joe Biden (D)</strong></td>
+        <td class="is-narrow">36</td>
+        <td class="is-narrow">7.3%</td>
+        <td><progress class="progress is-link" value="7.2727272727272725" max="100">7.3%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Donald Trump (R)</strong></td>
+        <td class="is-narrow">22</td>
+        <td class="is-narrow">4.4%</td>
+        <td><progress class="progress is-link" value="4.444444444444445" max="100">4.4%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Beto O’Rourke (D)</strong></td>
+        <td class="is-narrow">14</td>
+        <td class="is-narrow">2.8%</td>
+        <td><progress class="progress is-link" value="2.8282828282828283" max="100">2.8%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Kamala Harris (D)</strong></td>
+        <td class="is-narrow">11</td>
+        <td class="is-narrow">2.2%</td>
+        <td><progress class="progress is-link" value="2.2222222222222223" max="100">2.2%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Andrew Yang (D)</strong></td>
+        <td class="is-narrow">11</td>
+        <td class="is-narrow">2.2%</td>
+        <td><progress class="progress is-link" value="2.2222222222222223" max="100">2.2%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Other</strong></td>
+        <td class="is-narrow">10</td>
+        <td class="is-narrow">2.0%</td>
+        <td><progress class="progress is-link" value="2.0202020202020203" max="100">2.0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Bernie Sanders (I)</strong></td>
+        <td class="is-narrow">9</td>
+        <td class="is-narrow">1.8%</td>
+        <td><progress class="progress is-link" value="1.8181818181818181" max="100">1.8%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Pete Buttigieg (D)</strong></td>
+        <td class="is-narrow">8</td>
+        <td class="is-narrow">1.6%</td>
+        <td><progress class="progress is-link" value="1.6161616161616161" max="100">1.6%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Bill Weld (R)</strong></td>
+        <td class="is-narrow">6</td>
+        <td class="is-narrow">1.2%</td>
+        <td><progress class="progress is-link" value="1.2121212121212122" max="100">1.2%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Elizabeth Warren (D)</strong></td>
+        <td class="is-narrow">6</td>
+        <td class="is-narrow">1.2%</td>
+        <td><progress class="progress is-link" value="1.2121212121212122" max="100">1.2%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Kirsten Gillibrand (D)</strong></td>
+        <td class="is-narrow">3</td>
+        <td class="is-narrow">0.6%</td>
+        <td><progress class="progress is-link" value="0.6060606060606061" max="100">0.6%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Seth Moulton (D)</strong></td>
+        <td class="is-narrow">3</td>
+        <td class="is-narrow">0.6%</td>
+        <td><progress class="progress is-link" value="0.6060606060606061" max="100">0.6%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Bill de Blasio (D)</strong></td>
+        <td class="is-narrow">2</td>
+        <td class="is-narrow">0.4%</td>
+        <td><progress class="progress is-link" value="0.40404040404040403" max="100">0.4%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Cory Booker (D)</strong></td>
+        <td class="is-narrow">2</td>
+        <td class="is-narrow">0.4%</td>
+        <td><progress class="progress is-link" value="0.40404040404040403" max="100">0.4%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Steve Bullock (D)</strong></td>
+        <td class="is-narrow">1</td>
+        <td class="is-narrow">0.2%</td>
+        <td><progress class="progress is-link" value="0.20202020202020202" max="100">0.2%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Julián Castro (D)</strong></td>
+        <td class="is-narrow">1</td>
+        <td class="is-narrow">0.2%</td>
+        <td><progress class="progress is-link" value="0.20202020202020202" max="100">0.2%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Michael Bennet (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>John Delaney (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Tulsi Gabbard (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Mike Gravel (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>John Hickenlooper (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Jay Inslee (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Amy Klobuchar (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Wayne Messam (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Tim Ryan (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Eric Swalwell (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Marianne Williamson (D)</strong></td>
+        <td class="is-narrow">0</td>
+        <td class="is-narrow">0%</td>
+        <td><progress class="progress is-link" value="0.0" max="100">0%</progress></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+          
+          <hr>
+          <br>
+        
+          <h2 class="is-size-4 title">Which candidate(s) would you be satisfied with being the next President of the United States?</h2>
+          <p class="subtitle is-size-5">Please select all that apply.&nbsp;</p> 
+
+          
+            <div class="table-chart">
+  <table class="table is-fullwidth">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Count</th>
+        <th>Percent</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Joe Biden (D)</strong></td>
+        <td class="is-narrow">81</td>
+        <td class="is-narrow">16.4%</td>
+        <td><progress class="progress is-link" value="16.363636363636363" max="100">16.4%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Bernie Sanders (I)</strong></td>
+        <td class="is-narrow">52</td>
+        <td class="is-narrow">10.5%</td>
+        <td><progress class="progress is-link" value="10.505050505050505" max="100">10.5%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Beto O’Rourke (D)</strong></td>
+        <td class="is-narrow">45</td>
+        <td class="is-narrow">9.1%</td>
+        <td><progress class="progress is-link" value="9.090909090909092" max="100">9.1%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Kamala Harris (D)</strong></td>
+        <td class="is-narrow">43</td>
+        <td class="is-narrow">8.7%</td>
+        <td><progress class="progress is-link" value="8.686868686868687" max="100">8.7%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Elizabeth Warren (D)</strong></td>
+        <td class="is-narrow">42</td>
+        <td class="is-narrow">8.5%</td>
+        <td><progress class="progress is-link" value="8.484848484848484" max="100">8.5%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Pete Buttigieg (D)</strong></td>
+        <td class="is-narrow">38</td>
+        <td class="is-narrow">7.7%</td>
+        <td><progress class="progress is-link" value="7.6767676767676765" max="100">7.7%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Donald Trump (R)</strong></td>
+        <td class="is-narrow">26</td>
+        <td class="is-narrow">5.3%</td>
+        <td><progress class="progress is-link" value="5.252525252525253" max="100">5.3%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Andrew Yang (D)</strong></td>
+        <td class="is-narrow">26</td>
+        <td class="is-narrow">5.3%</td>
+        <td><progress class="progress is-link" value="5.252525252525253" max="100">5.3%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Cory Booker (D)</strong></td>
+        <td class="is-narrow">25</td>
+        <td class="is-narrow">5.1%</td>
+        <td><progress class="progress is-link" value="5.05050505050505" max="100">5.1%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Other</strong></td>
+        <td class="is-narrow">25</td>
+        <td class="is-narrow">5.1%</td>
+        <td><progress class="progress is-link" value="5.05050505050505" max="100">5.1%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Kirsten Gillibrand (D)</strong></td>
+        <td class="is-narrow">24</td>
+        <td class="is-narrow">4.8%</td>
+        <td><progress class="progress is-link" value="4.848484848484849" max="100">4.8%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Amy Klobuchar (D)</strong></td>
+        <td class="is-narrow">22</td>
+        <td class="is-narrow">4.4%</td>
+        <td><progress class="progress is-link" value="4.444444444444445" max="100">4.4%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Bill de Blasio (D)</strong></td>
+        <td class="is-narrow">18</td>
+        <td class="is-narrow">3.6%</td>
+        <td><progress class="progress is-link" value="3.6363636363636362" max="100">3.6%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Seth Moulton (D)</strong></td>
+        <td class="is-narrow">18</td>
+        <td class="is-narrow">3.6%</td>
+        <td><progress class="progress is-link" value="3.6363636363636362" max="100">3.6%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Julián Castro (D)</strong></td>
+        <td class="is-narrow">15</td>
+        <td class="is-narrow">3.0%</td>
+        <td><progress class="progress is-link" value="3.0303030303030303" max="100">3.0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Bill Weld (R)</strong></td>
+        <td class="is-narrow">14</td>
+        <td class="is-narrow">2.8%</td>
+        <td><progress class="progress is-link" value="2.8282828282828283" max="100">2.8%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Steve Bullock (D)</strong></td>
+        <td class="is-narrow">12</td>
+        <td class="is-narrow">2.4%</td>
+        <td><progress class="progress is-link" value="2.4242424242424243" max="100">2.4%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Tulsi Gabbard (D)</strong></td>
+        <td class="is-narrow">11</td>
+        <td class="is-narrow">2.2%</td>
+        <td><progress class="progress is-link" value="2.2222222222222223" max="100">2.2%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>John Delaney (D)</strong></td>
+        <td class="is-narrow">10</td>
+        <td class="is-narrow">2.0%</td>
+        <td><progress class="progress is-link" value="2.0202020202020203" max="100">2.0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>John Hickenlooper (D)</strong></td>
+        <td class="is-narrow">10</td>
+        <td class="is-narrow">2.0%</td>
+        <td><progress class="progress is-link" value="2.0202020202020203" max="100">2.0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Tim Ryan (D)</strong></td>
+        <td class="is-narrow">10</td>
+        <td class="is-narrow">2.0%</td>
+        <td><progress class="progress is-link" value="2.0202020202020203" max="100">2.0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Marianne Williamson (D)</strong></td>
+        <td class="is-narrow">10</td>
+        <td class="is-narrow">2.0%</td>
+        <td><progress class="progress is-link" value="2.0202020202020203" max="100">2.0%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Michael Bennet (D)</strong></td>
+        <td class="is-narrow">9</td>
+        <td class="is-narrow">1.8%</td>
+        <td><progress class="progress is-link" value="1.8181818181818181" max="100">1.8%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Eric Swalwell (D)</strong></td>
+        <td class="is-narrow">9</td>
+        <td class="is-narrow">1.8%</td>
+        <td><progress class="progress is-link" value="1.8181818181818181" max="100">1.8%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Mike Gravel (D)</strong></td>
+        <td class="is-narrow">8</td>
+        <td class="is-narrow">1.6%</td>
+        <td><progress class="progress is-link" value="1.6161616161616161" max="100">1.6%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Jay Inslee (D)</strong></td>
+        <td class="is-narrow">8</td>
+        <td class="is-narrow">1.6%</td>
+        <td><progress class="progress is-link" value="1.6161616161616161" max="100">1.6%</progress></td>
+      </tr>
+      
+      <tr>
+        <td class="is-narrow"><span class="table-rank"></span></td>
+        <td class="is-narrow" class="table-name"><strong>Wayne Messam (D)</strong></td>
+        <td class="is-narrow">7</td>
+        <td class="is-narrow">1.4%</td>
+        <td><progress class="progress is-link" value="1.4141414141414141" max="100">1.4%</progress></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+          
+          <hr>
+          <br>
+        
+      
+    
+  </div>
+</section>
+
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<div class="footer-placeholder"></div>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>PollPA</strong> is entirely student-run, but supported in part by Institutional Research. The code is <a href="https://github.com/pollpa/PollPA">open source</a>. Each poll question is reviewed by a team of both faculty and students prior to release. All votes are anonymous. <a href="../../cdn-cgi/l/email-protection.html#bbd1c8d3ded5fbdad5dfd4cddec995dedfce97c9d6d8d8dad2d5fbdad5dfd4cddec995dedfce">Contact us.</a>
+    </p>
+  </div>
+</footer>
+
+
+  
+  
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.js"></script>
+    <script src="../../static/polls/JS/poll.2d34edfee9c0.js"></script>
+  
+
+
+  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101177757);</script>
+  <script async src="http://static.getclicky.com/js"></script>
+  <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/101177757ns.gif" /></p></noscript>
+</body>
+</html>

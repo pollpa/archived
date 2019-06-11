@@ -1,0 +1,136 @@
+nav {
+  background: #4b6cb7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #182848, #4b6cb7) !important;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #182848, #4b6cb7) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+nav a:hover, .navbar.is-dark .navbar-item.has-dropdown:hover .navbar-link {
+  background-color: inherit !important; }
+
+.poll-box {
+  border-radius: 6px; }
+
+.box:hover {
+  border-color: blue !important; }
+
+#index-hero {
+  background: #4b6cb7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  #index-hero .title, #index-hero .subtitle {
+    color: white; }
+
+.wrapper {
+  min-height: calc(100vh - 150px) !important; }
+
+.foot {
+  background-color: #f9f9f9; }
+
+.tooltip {
+  position: absolute;
+  white-space: nowrap;
+  background: white;
+  padding: 4px 6px;
+  border: 1px solid black; }
+
+.bar-chart {
+  position: relative; }
+  .bar-chart .tick {
+    font-size: 14px; }
+  .bar-chart .label {
+    font-weight: bold; }
+
+.pie-chart {
+  text-align: center;
+  position: relative; }
+  .pie-chart .tooltip {
+    text-align: left; }
+  .pie-chart .column {
+    margin-top: 10px; }
+  .pie-chart svg {
+    padding: 0 !important; }
+
+.pie-label {
+  text-align: left;
+  padding-left: 15px; }
+
+.bubble {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 8px; }
+
+@media screen and (max-width: 768px) {
+  svg {
+    margin: 0 auto; }
+
+  .pie-label {
+    width: 300px;
+    margin: 10px auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
+.tooltip {
+  max-width: 200px;
+  white-space: normal; }
+
+.binary-slider {
+  width: 100%;
+  border: 1px solid black;
+  white-space: nowrap; }
+
+.half {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  padding: 7px; }
+  .half .heading {
+    font-weight: bold;
+    margin-bottom: -5px; }
+
+.yes-half {
+  background: #003c7f;
+  color: white; }
+
+.table-chart {
+  counter-reset: rowNumber; }
+  .table-chart .table .table-rank:after {
+    counter-increment: rowNumber;
+    content: counter(rowNumber); }
+
+.medium-top-margin {
+  margin-top: 15px !important; }
+
+@media screen and (min-width: 980px) {
+  .grid {
+    flex-flow: row wrap !important;
+    display: flex;
+    justify-content: space-around; }
+    .grid .poll-box {
+      max-width: 30%;
+      min-width: 350px;
+      margin-bottom: 24px; } }
+.figure-card {
+  width: 100%; }
+
+form {
+  max-width: 40rem; }
+
+.is-hidden {
+  display: none; }
+
+.is-pulled-bottom {
+  bottom: 0px;
+  position: static; }
+
+.box {
+  height: unset; }
+
+/*# sourceMappingURL=main.css.map */
